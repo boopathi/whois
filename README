@@ -1,0 +1,30 @@
+USAGE
+=====
+
+Two letter taken domain names are in the file : two
+Three letter taken domain names in the file   : three
+
+Search.sh
+=========
+
+This file searches for three letter domain names {aaa- zzz} and echoes it to stdout.
+
+sh search.sh > taken
+
+two.sh
+======
+
+This file does the same thing for two letter domain names from aa - zz
+
+sh two.sh > two
+
+calculate.sh
+============
+
+This searches for the number of available domain names in the particular file and calcuates the number of domain names that are not taken.
+
+Usage:
+------
+
+sh calculate.sh taken 26*26 #echoes no of unregistered 3 letter domains
+sh calculate.sh two 26 #echoes no of unregistered 2 letter domains
