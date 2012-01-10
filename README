@@ -26,5 +26,8 @@ This searches for the number of available domain names in the particular file an
 Usage:
 ------
 
-sh calculate.sh taken 26*26 #echoes no of unregistered 3 letter domains
-sh calculate.sh two 26 #echoes no of unregistered 2 letter domains
+# to find the number of unregistered 3 letter domain names
+sh calculate.sh taken 26*26
+
+# to find the number of unregistered 2 letter domain names
+sh calculate.sh two 26
